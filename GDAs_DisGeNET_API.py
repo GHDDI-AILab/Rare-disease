@@ -1,4 +1,4 @@
-uniprotid_list = []#This file for download DisGeNET database with API
+#This file for download DisGeNET database with API
 #build by Xiaoying Lv at 2020.9.8
 
 import requests

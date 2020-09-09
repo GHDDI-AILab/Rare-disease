@@ -1,0 +1,59 @@
+ENTRY       H00845                      Disease
+NAME        Familial amyloidosis
+  SUBGROUP  Amyloidosis, Finnish type [DS:H02322]
+DESCRIPTION The amyloidoses are a group of diseases in which proteins that are normally soluble deposit extracellularly in tissues as insoluble fibrils. The fibrils have a characteristic beta-pleated sheet configuration that renders them avid for Congo red dye. In the familial amyloidoses, a gene mutation inherited in an autosomal-dominant manner results in a single amino acid substitution that renders a plasma protein amyloidogenic. Mutations in the TTR gene are the most common cause of familial amyloidosis. The clinical features of familial amyloidosis vary depending on the underlying amyloidogenic protein and the particular amino acid affected by the mutation, ranging from peripheral and autonomic neuropathy to cardiomyopathy.
+CATEGORY    Nervous system disease
+BRITE       Human diseases [BR:br08402]
+             Nervous system diseases
+              Neurodegenerative diseases
+               H00845  Familial amyloidosis
+            Human diseases in ICD-11 classification [BR:br08403]
+             05 Endocrine, nutritional or metabolic diseases
+              Metabolic disorders
+               Other metabolic disorders
+                5D00  Amyloidosis
+                 H00845  Familial amyloidosis
+GENE        TTR [HSA:7276] [KO:K20731]
+            FGA [HSA:2243] [KO:K03903]
+            APOA1 [HSA:335] [KO:K08757]
+            LYZ [HSA:4069] [KO:K13915]
+            B2M [HSA:567] [KO:K08055]
+DRUG        Tafamidis [DR:D09673]
+            Tafamidis meglumine [DR:D09674]
+            Patisiran sodium [DR:D10794]
+            Inotersen sodium [DR:D10941]
+DBLINKS     ICD-11: 5D00.2
+            ICD-10: E85
+            MeSH: D028226
+            OMIM: 105210 105200
+REFERENCE   PMID:16105087
+  AUTHORS   Dember LM
+  TITLE     Emerging treatment approaches for the systemic amyloidoses.
+  JOURNAL   Kidney Int 68:1377-90 (2005)
+            DOI:10.1111/j.1523-1755.2005.00535.x
+REFERENCE   PMID:16009758
+  AUTHORS   Ando Y, Nakamura M, Araki S
+  TITLE     Transthyretin-related familial amyloidotic polyneuropathy.
+  JOURNAL   Arch Neurol 62:1057-62 (2005)
+            DOI:10.1001/archneur.62.7.1057
+REFERENCE   PMID:8097946
+  AUTHORS   Benson MD, Liepnieks J, Uemichi T, Wheeler G, Correa R
+  TITLE     Hereditary renal amyloidosis associated with a mutant fibrinogen alpha-chain.
+  JOURNAL   Nat Genet 3:252-5 (1993)
+            DOI:10.1038/ng0393-252
+REFERENCE   PMID:9931341
+  AUTHORS   Yamakawa-Kobayashi K, Yanagi H, Fukayama H, Hirano C, Shimakura Y, Yamamoto N, Arinami T, Tsuchiya S, Hamaguchi H
+  TITLE     Frequent occurrence of hypoalphalipoproteinemia due to mutant apolipoprotein A-I gene in the population: a population-based survey.
+  JOURNAL   Hum Mol Genet 8:331-6 (1999)
+            DOI:10.1093/hmg/8.2.331
+REFERENCE   PMID:8464497
+  AUTHORS   Pepys MB, Hawkins PN, Booth DR, Vigushin DM, Tennent GA, Soutar AK, Totty N, Nguyen O, Blake CC, Terry CJ, et al.
+  TITLE     Human lysozyme gene mutations cause hereditary systemic amyloidosis.
+  JOURNAL   Nature 362:553-7 (1993)
+            DOI:10.1038/362553a0
+REFERENCE   PMID:22693999
+  AUTHORS   Valleix S, Gillmore JD, Bridoux F, Mangione PP, Dogan A, Nedelec B, Boimard M, Touchard G, Goujon JM, Lacombe C, Lozeron P, Adams D, Lacroix C, Maisonobe T, Plante-Bordeneuve V, Vrana JA, Theis JD, Giorgetti S, Porcari R, Ricagno S, Bolognesi M, Stoppini M, Delpech M, Pepys MB, Hawkins PN, Bellotti V
+  TITLE     Hereditary systemic amyloidosis due to Asp76Asn variant beta2-microglobulin.
+  JOURNAL   N Engl J Med 366:2276-83 (2012)
+            DOI:10.1056/NEJMoa1201356
+///
