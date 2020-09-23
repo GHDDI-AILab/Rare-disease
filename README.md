@@ -4,6 +4,8 @@
 
 > # A. Gene direction
 
+> ![image-20200923144929511](/Users/lvxiaoying/Library/Application Support/typora-user-images/image-20200923144929511.png)
+
 ## I. TTR-related genes from public databases
 
 *This repo contain all source codes and descriptions for TTR disease analysis*
@@ -55,7 +57,9 @@ Download gene-disease association(GDA) from public database using API or from th
 
 ### 6) Enrichr database
 
-   This database are curated for 
+   This database integrated the expert curated database. However, the information maybe cann`t be updata timely.  So the gene number from Enricher DisGeNET and KEGG is lower than that from origin databases.
+
+At finally, we get 498 non redundant genes (HGNC format). 
 
 ## Summary: 93 genes in total with 91 unique gene list
 
