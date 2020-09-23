@@ -4,11 +4,15 @@
 
 > # A. Gene direction
 
-> ![image-20200923144929511](/Users/lvxiaoying/Library/Application Support/typora-user-images/image-20200923144929511.png)
+
+
+![https://github.com/XiaoyingLv/images/blob/master/img/TTR_workflow.png]()
+
+
 
 ## I. TTR-related genes from public databases
 
-*This repo contain all source codes and descriptions for TTR disease analysis*
+*This repo contains all source codes and files for TTR disease analysis*
 
 Download gene-disease association(GDA) from public database using API or from the website directly.
 
