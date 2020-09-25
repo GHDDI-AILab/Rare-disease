@@ -4,9 +4,7 @@
 
 > # A. Gene direction
 >
-> ![TTR_workflow](https://github.com/XiaoyingLv/images/master/img/20200925180445.png)
->
-> ![TTR_workflow](https://github.com/XiaoyingLv/images/master/img/20200925180704.png)
+> ![TTR_workflow](https://raw.githubusercontent.com/XiaoyingLv/images/master/img/20200925182458.png)
 
 ## I. TTR-related genes from public databases
 
