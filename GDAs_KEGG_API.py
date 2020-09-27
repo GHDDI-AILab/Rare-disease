@@ -1,5 +1,5 @@
 #This file for download DisGeNET database with API
-#build by Xiaoying Lv at 2020.9.8
+#build by XiaoyingLv at 2020.9.8
 
 import requests
 import json
