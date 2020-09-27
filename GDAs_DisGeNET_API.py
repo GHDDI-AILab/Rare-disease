@@ -20,6 +20,7 @@ def get_parser():
 	return parser
 
 def main(args):
+	#disease_name=input("Please input the disease name and We will obtain the UMLS CUI string.")
 	#url='https://www.disgenet.org/api/gda/disease/C2751492?source=ALL&type=disease'
 	#======URL=========
 	url='%s'%args.url
