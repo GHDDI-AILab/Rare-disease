@@ -1,0 +1,18 @@
+library(biomaRt)
+ensembl <- useMart("ensembl")
+ensembl = useDataset("hsapiens_gene_ensembl",mart=ensembl)
+attributes = listAttributes(ensembl)
+
+ensp_file = read.table(file="STRING_nodes.txt",header=FALSE)
+ensg_file = read.table(file="HuRI_nodes.txt",header=FALSE)
+ensp_out = getBM(attributes=c('ensembl_peptide_id','hgnc_id','hgnc_symbol'),filters='ensembl_peptide_id',values=ensp_file,mart=ensembl)
+ensg_out = getBM(attributes=c('ensembl_gene_id','hgnc_id','hgnc_symbol'),filters='ensembl_gene_id',values=ensg_file,mart=ensembl)
+write.table(ensp_out,file="STRING_ENSP_HGNC.txt",row.names=FALSE,col.names=TRUE,quote=FALSE)
+write.table(ensg_out,file="HuRI_ENSG_HGNC.txt",row.names=FALSE,col.names=TRUE,quote=FALSE)
+
+### version 84 (some ID cann't be converted by default version)
+mart = useDataset("hsapiens_gene_ensembl",useEnsembl(biomart="ensembl",version=84))
+ensp_out = getBM(attributes=c('ensembl_peptide_id','hgnc_id','hgnc_symbol'),filters='ensembl_peptide_id',values=ensp_file,mart=mart)
+ensg_out = getBM(attributes=c('ensembl_gene_id','hgnc_id','hgnc_symbol'),filters='ensembl_gene_id',values=ensg_file,mart=mart)
+write.table(ensp_out,file="STRING_ENSP_HGNC_v84.txt",row.names=FALSE,col.names=TRUE,quote=FALSE)
+write.table(ensg_out,file="HuRI_ENSG_HGNC_v84.txt",row.names=FALSE,col.names=TRUE,quote=FALSE)
