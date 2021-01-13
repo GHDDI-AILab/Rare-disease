@@ -91,3 +91,11 @@ python PPI_distance.py -targetgene target_gene_list.txt -drug drug_target.txt  -
 
 Due to lack of parallel python package of CPU, the 10000 simulation were exected by submitting this script repeatly. 
 
+#### IV. iGSEA algorithm
+
+​    Drug-induced gene expression profiles were extracted from the Library of Integrated Network-based Cellular Signatures (LINCS; https://commonfund.nih.gov/LINCS/) L1000 dataset, which included several assays, cell types and hundreds of small molecule drugs with different dosages and culture times (Subramanian, et al., 2017). Only the expression data of NPC and SKL cell line in level 3(Normalized) was downloaded considering the polyneuropathy and cardiopathy related symptoms in ATTR patients.  In cluster server, using GSEA to calculate the ES score and FDR (cutoff 0.25).
+
+```
+bash /data01/xylv/iGSEA/GSEA_4.1.0/gsea-cli.sh GSEA -res /data01/xylv/iGSEA/LINCS/LDS_1292/Data/HUVEC_sm_list/A549_1.gct -cls /data01/xylv/iGSEA/LINCS/LDS_1292/Data/HUVEC_sm_list/A549_1.cls -gmx /data01/xylv/iGSEA/PAH_gene.gmx -chip /data01/xylv/iGSEA/gene.chip -collapse true -out /data01/xylv/iGSEA/PAH_result/LDS_1292_HUVEC -rpt_label A549_1 -set_max 1000
+```
+
