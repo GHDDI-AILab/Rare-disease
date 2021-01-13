@@ -1,5 +1,4 @@
-gene_symbols
-NTN5
+TN5
 SEC1P
 BAG3
 MAML3

@@ -2,6 +2,7 @@ library(biomaRt)
 ensembl <- useMart("ensembl")
 ensembl = useDataset("hsapiens_gene_ensembl",mart=ensembl)
 attributes = listAttributes(ensembl)
+#listFilters(ensembl)
 
 ensp_file = read.table(file="STRING_nodes.txt",header=FALSE)
 ensg_file = read.table(file="HuRI_nodes.txt",header=FALSE)
